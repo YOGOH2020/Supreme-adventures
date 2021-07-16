@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #130e0e;
+}
+ul{
+    display: flex;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+
+}
+li{
+    font-size: 20px;
+    font-family: "Cantarell Light";
+}
+ul li{
+    padding:7px;
+    list-style: none;
+    display: block ;
+
+}
+#logo{
+    max-width: 100%;
+    height: 80vh;
+    border: 2px solid lightpink;
+    border-radius: 20px;
+}
+.row{
+    margin: 0 50px;
+    padding: 10px;
+}
+.row h3{
+    color:blue;
+    font-family: Roboto;
+    font-size: 30px;
+    align-items: center;
+}
+.row p{
+    font-size: 22px;
+    font-family: Cantarell;
+    padding: 10px;
+    color: black;
+}
+li{
+    font-size: 20px;
+    font-family: "Cantarell Light";
+}
+#foot ul li{
+    padding:7px;
+    list-style: none;
+    display: block ;
+
+}
+#collapsibleNavbar ul li a{
+    text-decoration: none;
+    padding: 0 40px;
+    display: block;
+}
+#collapsibleNavbar{
+
+    padding: 20px;
+    border-radius: 20px;
+    background-color: blue;
+}
+#navbardrop{
+    color: floralwhite;
+    padding: 10px;
+}
+.dropdown-item{
+    color: blue;
+}
+.dropdown-item:hover{
+    background: black;
+    color: blue;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.dropdown-menu{
+    background: blue;
+    color: blue;
+    padding: 10px;
+}
+ul li a:hover{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+}
+.forms{
+    width: 50%;
+    display: flex;
+}
+.contactus{
+    width: 100%;
+    background-color: palevioletred;
+    border-radius: 15px;
+    padding: 20px;
+}
+input[type=text],input[type=email],input[type=tel], textarea{
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+input[type=submit]{
+    width: 50%;
+    background: lightpink;
+    color: black;
+    font-size: 18px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+h2 a{
+    margin: 0;
+}
+#form{
+    margin: 0;
+    padding: 0;
+}
+.lower-footer {
+    text-align: center;
+    margin: 20px;
+    color: floralwhite;
+    font-size: 15px;
+}
+#foot , ul {
+    list-style-type: none;
+    display: block ;
+}
+.footer{
+    background: blue;
+}
+.inner-footer h4{
+    color: black;
+}
+.inner-footer li a{
+    color: floralwhite;
+}
+.navbar-nav li a{
+    color: floralwhite;
+}
+.message{
+    padding: 50px;
+}
+.message h2{
+    text-align: center;
+    color: blue;
+}
+.message p{
+    color: blue;
+    font-size: 25px;
+}
+.send{
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+}
+#btn{
+    color: floralwhite;
+    background: blue;
+}
+.col-sm-4 h4{
+    color: floralwhite;
+    font-size: 25px;
+    text-align: center;
+}
+.col-sm-4 p{
+    color: blue;
+    font-family: "Roboto Light";
+    font-size: 20px;
+}

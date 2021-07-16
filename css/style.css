@@ -1,0 +1,266 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Bitstream Vera Sans" , sans-serif;
+    background: #130e0e;
+}
+ul{
+    display: flex;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+
+}
+li{
+    font-size: 20px;
+    font-family: "Cantarell Light";
+}
+#foot ul li{
+    padding:7px;
+    list-style: none;
+    display: block ;
+
+}
+#foot , ul {
+    list-style-type: none;
+    display: block ;
+
+}
+#sticky-top{
+    right:10px;
+}
+.navbar .navbar-brand img{
+    width:50px;
+    height:50px;
+}
+.navbar-nav{
+    position:absolute;
+    right:20px;
+}
+#collapsibleNavbar ul li a{
+    text-decoration: none;
+    margin:10px;
+    display: block;
+    font-size: 23px;
+
+}
+#foot ul li{
+    padding:7px;
+    list-style: none;
+    display: block ;
+
+}
+.carousel-item{
+    width: 100%;
+    height: 100vh;
+}
+.carousel-inner{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif,Roboto;
+    color: blue;
+    margin-top: 10px;
+}
+p{
+    color: blue;
+    font-size: 18px;
+    padding: 10px;
+}
+hr {
+    border: 1px solid lightpink;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+img{
+    max-width: 80%;
+    height: auto;
+}
+.row{
+    margin: 50px;
+    padding: 10px;
+
+}
+h3{
+    font-size: 20px;
+    color: blue;
+    font-family: "Bitstream Charter" ,sans-serif;
+    text-align: center;
+}
+
+#japo{
+    border: 2px solid lightpink;
+    border-radius: 15px;
+    background: lightpink;
+    text-align: center;
+
+}
+.imk{
+    border: 2px solid lightpink;
+    border-radius: 10px;
+}
+.contactus {
+    max-width: 50%;
+    background-color: palevioletred;
+    border-radius: 15px;
+    padding: 20px;
+}
+form{
+    margin-left: 50px;
+}
+.bnt{
+    margin: 0 150px;
+}
+.card{
+    background: lightblue;
+    border-radius: 10px;
+    color: black;
+}
+.sup{
+    background:blue;
+    height:25vh;
+
+    color: black;
+}
+.team{
+    padding-top: 10px;
+}
+.card{
+    position: relative;
+    overflow: hidden;
+}
+.card:before{
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 210%;
+    background: rgba(235,53,131,0.7);
+    top: -50%;
+    left: -100%;
+    z-index: 1;
+    transform: rotate(25deg);
+    transform-origin: center top 0;
+    transition: 5s;
+}
+.card:hover:before{
+    left: 10%;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-text{
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    top: -100%;
+    color: blue;
+    z-index: 2;
+    transition: 1.1s;
+}
+.card-text h4{
+    font-family: Roboto;
+}
+.card:hover .card-text{
+    top: 80px;
+}
+#navbardrop{
+    color: floralwhite;
+    padding: 10px;
+}
+.dropdown-item{
+    color: blue;
+}
+.dropdown-item:hover{
+    background: black;
+    color: blue;
+    padding: 15px;
+}
+
+.dropdown-menu{
+    background: blue;
+    color:black;
+    padding: 10px;
+}
+#cops{
+    display: flex;
+}
+#logo{
+    align-self: center;
+    border: 2px solid lightpink;
+    border-radius: 10px;
+}
+.carousel-inner img{
+    width: 100vw;
+    height: 90vh;
+    background-size: contain;
+}
+.carousel-inner{
+    align-items: center;
+}
+.row img{
+    max-width: 100%;
+    height: 70vh;
+}
+.row h3{
+    font-size: 30px;
+    font-family: Roboto;
+    align-items: center;
+}
+ul li a:hover{
+   color:#dc3545;
+    font-size: 23px;
+
+}
+#socio{
+    padding: 10px;
+}
+#tm5 ,#tm4 ,#tm3 ,#tm2,#tm1{
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+.lower-footer {
+    text-align: center;
+    margin: 20px;
+    color: white;
+    font-size: 15px;
+}
+.footer{
+    background: blue;
+}
+.inner-footer h4{
+    color: black;
+}
+.inner-footer li a{
+    color: floralwhite;
+}
+.navbar-nav li a{
+    color: floralwhite;
+    font-family: Cantarell;
+}
+
+.row2{
+    margin: 50px 50px;
+    display: flex;
+}
+.about-head h4{
+    text-align: center;
+    color: blue;
+    font-size: 25px;
+}
+
+
+
+
+
+
